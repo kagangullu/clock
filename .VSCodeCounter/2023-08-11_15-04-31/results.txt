@@ -1,0 +1,179 @@
+Date : 2023-08-11 15:04:31
+Directory : c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app
+Total : 81 files,  2577 codes, 209 comments, 422 blanks, all 3208 lines
+
+Languages
++------------+------------+------------+------------+------------+------------+
+| language   | files      | code       | comment    | blank      | total      |
++------------+------------+------------+------------+------------+------------+
+| Dart       |         23 |        837 |         15 |        129 |        981 |
+| C++        |         16 |        547 |        118 |        181 |        846 |
+| XML        |         18 |        544 |         48 |         17 |        609 |
+| JSON       |          9 |        316 |          0 |          5 |        321 |
+| Groovy     |          3 |        107 |          3 |         25 |        135 |
+| HTML       |          1 |         98 |         16 |         21 |        135 |
+| Swift      |          6 |         66 |          7 |         20 |         93 |
+| YAML       |          1 |         41 |          2 |         13 |         56 |
+| Markdown   |          2 |         13 |          0 |          9 |         22 |
+| Properties |          2 |          8 |          0 |          2 |         10 |
++------------+------------+------------+------------+------------+------------+
+
+Directories
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                        | files      | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                           |         81 |      2,577 |        209 |        422 |      3,208 |
+| . (Files)                                                                                                                   |          2 |         51 |          2 |         20 |         73 |
+| android                                                                                                                     |         14 |        216 |         49 |         36 |        301 |
+| android (Files)                                                                                                             |          3 |         46 |          0 |         11 |         57 |
+| android\app                                                                                                                 |         10 |        165 |         49 |         24 |        238 |
+| android\app (Files)                                                                                                         |          1 |         64 |          3 |         15 |         82 |
+| android\app\src                                                                                                             |          9 |        101 |         46 |          9 |        156 |
+| android\app\src\debug                                                                                                       |          1 |          3 |          4 |          1 |          8 |
+| android\app\src\main                                                                                                        |          7 |         95 |         38 |          7 |        140 |
+| android\app\src\main (Files)                                                                                                |          1 |         27 |          6 |          1 |         34 |
+| android\app\src\main\res                                                                                                    |          6 |         68 |         32 |          6 |        106 |
+| android\app\src\main\res\drawable                                                                                           |          1 |          9 |          0 |          1 |         10 |
+| android\app\src\main\res\drawable-v21                                                                                       |          1 |          9 |          0 |          1 |         10 |
+| android\app\src\main\res\values                                                                                             |          1 |         13 |          9 |          1 |         23 |
+| android\app\src\main\res\values-night                                                                                       |          1 |         13 |          9 |          1 |         23 |
+| android\app\src\main\res\values-night-v31                                                                                   |          1 |         12 |          7 |          1 |         20 |
+| android\app\src\main\res\values-v31                                                                                         |          1 |         12 |          7 |          1 |         20 |
+| android\app\src\profile                                                                                                     |          1 |          3 |          4 |          1 |          8 |
+| android\gradle                                                                                                              |          1 |          5 |          0 |          1 |          6 |
+| android\gradle\wrapper                                                                                                      |          1 |          5 |          0 |          1 |          6 |
+| assets                                                                                                                      |         10 |         79 |          0 |          5 |         84 |
+| assets\icons                                                                                                                |          6 |         32 |          0 |          5 |         37 |
+| assets\json                                                                                                                 |          2 |         29 |          0 |          0 |         29 |
+| assets\language                                                                                                             |          2 |         18 |          0 |          0 |         18 |
+| ios                                                                                                                         |          9 |        257 |          4 |         14 |        275 |
+| ios\Runner                                                                                                                  |          8 |        250 |          2 |         10 |        262 |
+| ios\Runner (Files)                                                                                                          |          2 |         13 |          0 |          3 |         16 |
+| ios\RunnerTests                                                                                                             |          1 |          7 |          2 |          4 |         13 |
+| ios\Runner\Assets.xcassets                                                                                                  |          4 |        169 |          0 |          5 |        174 |
+| ios\Runner\Assets.xcassets\AppIcon.appiconset                                                                               |          1 |        122 |          0 |          1 |        123 |
+| ios\Runner\Assets.xcassets\LaunchBackground.imageset                                                                        |          1 |         21 |          0 |          1 |         22 |
+| ios\Runner\Assets.xcassets\LaunchImage.imageset                                                                             |          2 |         26 |          0 |          3 |         29 |
+| ios\Runner\Base.lproj                                                                                                       |          2 |         68 |          2 |          2 |         72 |
+| lib                                                                                                                         |         22 |        823 |          5 |        122 |        950 |
+| lib (Files)                                                                                                                 |          1 |         41 |          0 |          4 |         45 |
+| lib\features                                                                                                                |          8 |        501 |          3 |         72 |        576 |
+| lib\features\mixin                                                                                                          |          3 |        175 |          0 |         31 |        206 |
+| lib\features\view                                                                                                           |          5 |        326 |          3 |         41 |        370 |
+| lib\features\view\home                                                                                                      |          2 |         87 |          2 |         16 |        105 |
+| lib\features\view\pomodoro                                                                                                  |          1 |         82 |          0 |         10 |         92 |
+| lib\features\view\theme                                                                                                     |          1 |         83 |          1 |          8 |         92 |
+| lib\features\view\voice                                                                                                     |          1 |         74 |          0 |          7 |         81 |
+| lib\product                                                                                                                 |         13 |        281 |          2 |         46 |        329 |
+| lib\product\enum                                                                                                            |          1 |          4 |          0 |          1 |          5 |
+| lib\product\init                                                                                                            |          3 |         46 |          1 |          7 |         54 |
+| lib\product\init\lang                                                                                                       |          1 |          9 |          1 |          2 |         12 |
+| lib\product\init\theme                                                                                                      |          2 |         37 |          0 |          5 |         42 |
+| lib\product\model                                                                                                           |          4 |         52 |          0 |         12 |         64 |
+| lib\product\utils                                                                                                           |          3 |         48 |          0 |          9 |         57 |
+| lib\product\widgets                                                                                                         |          2 |        131 |          1 |         17 |        149 |
+| linux                                                                                                                       |          5 |        102 |         27 |         38 |        167 |
+| linux (Files)                                                                                                               |          3 |         86 |         18 |         27 |        131 |
+| linux\flutter                                                                                                               |          2 |         16 |          9 |         11 |         36 |
+| macos                                                                                                                       |          6 |        458 |          5 |         16 |        479 |
+| macos\Flutter                                                                                                               |          1 |         20 |          3 |          4 |         27 |
+| macos\Runner                                                                                                                |          4 |        431 |          0 |          8 |        439 |
+| macos\Runner (Files)                                                                                                        |          2 |         20 |          0 |          6 |         26 |
+| macos\RunnerTests                                                                                                           |          1 |          7 |          2 |          4 |         13 |
+| macos\Runner\Assets.xcassets                                                                                                |          1 |         68 |          0 |          1 |         69 |
+| macos\Runner\Assets.xcassets\AppIcon.appiconset                                                                             |          1 |         68 |          0 |          1 |         69 |
+| macos\Runner\Base.lproj                                                                                                     |          1 |        343 |          0 |          1 |        344 |
+| test                                                                                                                        |          1 |         14 |         10 |          7 |         31 |
+| web                                                                                                                         |          2 |        133 |         16 |         22 |        171 |
+| windows                                                                                                                     |         10 |        444 |         91 |        142 |        677 |
+| windows\flutter                                                                                                             |          2 |         17 |          9 |         11 |         37 |
+| windows\runner                                                                                                              |          8 |        427 |         82 |        131 |        640 |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| filename                                                                                                                    | language   | code       | comment    | blank      | total      |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\README.md                                                          | Markdown   |         10 |          0 |          7 |         17 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\app\build.gradle                                           | Groovy     |         64 |          3 |         15 |         82 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\app\src\debug\AndroidManifest.xml                          | XML        |          3 |          4 |          1 |          8 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\app\src\main\AndroidManifest.xml                           | XML        |         27 |          6 |          1 |         34 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\app\src\main\res\drawable-v21\launch_background.xml        | XML        |          9 |          0 |          1 |         10 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\app\src\main\res\drawable\launch_background.xml            | XML        |          9 |          0 |          1 |         10 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\app\src\main\res\values-night-v31\styles.xml               | XML        |         12 |          7 |          1 |         20 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\app\src\main\res\values-night\styles.xml                   | XML        |         13 |          9 |          1 |         23 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\app\src\main\res\values-v31\styles.xml                     | XML        |         12 |          7 |          1 |         20 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\app\src\main\res\values\styles.xml                         | XML        |         13 |          9 |          1 |         23 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\app\src\profile\AndroidManifest.xml                        | XML        |          3 |          4 |          1 |          8 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\build.gradle                                               | Groovy     |         27 |          0 |          5 |         32 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\gradle.properties                                          | Properties |          3 |          0 |          1 |          4 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\gradle\wrapper\gradle-wrapper.properties                   | Properties |          5 |          0 |          1 |          6 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\android\settings.gradle                                            | Groovy     |         16 |          0 |          5 |         21 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\assets\icons\brush.svg                                             | XML        |          4 |          0 |          1 |          5 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\assets\icons\pomodoro.svg                                          | XML        |          6 |          0 |          1 |          7 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\assets\icons\sand_watch.svg                                        | XML        |          3 |          0 |          1 |          4 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\assets\icons\time.svg                                              | XML        |          5 |          0 |          0 |          5 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\assets\icons\timer.svg                                             | XML        |          5 |          0 |          1 |          6 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\assets\icons\voice.svg                                             | XML        |          9 |          0 |          1 |         10 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\assets\json\images.json                                            | JSON       |         12 |          0 |          0 |         12 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\assets\json\voice.json                                             | JSON       |         17 |          0 |          0 |         17 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\assets\language\en.json                                            | JSON       |          9 |          0 |          0 |          9 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\assets\language\tr.json                                            | JSON       |          9 |          0 |          0 |          9 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\ios\RunnerTests\RunnerTests.swift                                  | Swift      |          7 |          2 |          4 |         13 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\ios\Runner\AppDelegate.swift                                       | Swift      |         12 |          0 |          2 |         14 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\ios\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json        | JSON       |        122 |          0 |          1 |        123 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\ios\Runner\Assets.xcassets\LaunchBackground.imageset\Contents.json | JSON       |         21 |          0 |          1 |         22 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\ios\Runner\Assets.xcassets\LaunchImage.imageset\Contents.json      | JSON       |         23 |          0 |          1 |         24 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\ios\Runner\Assets.xcassets\LaunchImage.imageset\README.md          | Markdown   |          3 |          0 |          2 |          5 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\ios\Runner\Base.lproj\LaunchScreen.storyboard                      | XML        |         43 |          1 |          1 |         45 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\ios\Runner\Base.lproj\Main.storyboard                              | XML        |         25 |          1 |          1 |         27 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\ios\Runner\Runner-Bridging-Header.h                                | C++        |          1 |          0 |          1 |          2 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\features\mixin\pomodoro_operation_mixin.dart                   | Dart       |        101 |          0 |         20 |        121 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\features\mixin\theme_operation_mixin.dart                      | Dart       |         15 |          0 |          3 |         18 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\features\mixin\voices_operation_mixin.dart                     | Dart       |         59 |          0 |          8 |         67 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\features\view\home\home_view.dart                              | Dart       |         60 |          1 |         11 |         72 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\features\view\home\menu_view.dart                              | Dart       |         27 |          1 |          5 |         33 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\features\view\pomodoro\pomodoro_view.dart                      | Dart       |         82 |          0 |         10 |         92 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\features\view\theme\theme_view.dart                            | Dart       |         83 |          1 |          8 |         92 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\features\view\voice\voices_view.dart                           | Dart       |         74 |          0 |          7 |         81 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\main.dart                                                      | Dart       |         41 |          0 |          4 |         45 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\enum\clock_text_enum.dart                              | Dart       |          4 |          0 |          1 |          5 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\init\lang\locale_keys.g.dart                           | Dart       |          9 |          1 |          2 |         12 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\init\theme\theme.dart                                  | Dart       |         30 |          0 |          3 |         33 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\init\theme\theme_colors.dart                           | Dart       |          7 |          0 |          2 |          9 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\model\audio_model.dart                                 | Dart       |          6 |          0 |          2 |          8 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\model\image_model.dart                                 | Dart       |          7 |          0 |          3 |         10 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\model\theme_model.dart                                 | Dart       |         10 |          0 |          3 |         13 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\model\timer_model.dart                                 | Dart       |         29 |          0 |          4 |         33 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\utils\shared_preferences_utils.dart                    | Dart       |         16 |          0 |          5 |         21 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\utils\snackbar.dart                                    | Dart       |         20 |          0 |          2 |         22 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\utils\theme_utils.dart                                 | Dart       |         12 |          0 |          2 |         14 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\widgets\main_clock_widget.dart                         | Dart       |         52 |          0 |         11 |         63 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\lib\product\widgets\menu_drawer.dart                               | Dart       |         79 |          1 |          6 |         86 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\linux\flutter\generated_plugin_registrant.cc                       | C++        |         11 |          4 |          5 |         20 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\linux\flutter\generated_plugin_registrant.h                        | C++        |          5 |          5 |          6 |         16 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\linux\main.cc                                                      | C++        |          5 |          0 |          2 |          7 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\linux\my_application.cc                                            | C++        |         74 |         11 |         20 |        105 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\linux\my_application.h                                             | C++        |          7 |          7 |          5 |         19 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\macos\Flutter\GeneratedPluginRegistrant.swift                      | Swift      |         20 |          3 |          4 |         27 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\macos\RunnerTests\RunnerTests.swift                                | Swift      |          7 |          2 |          4 |         13 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\macos\Runner\AppDelegate.swift                                     | Swift      |          8 |          0 |          2 |         10 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\macos\Runner\Assets.xcassets\AppIcon.appiconset\Contents.json      | JSON       |         68 |          0 |          1 |         69 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\macos\Runner\Base.lproj\MainMenu.xib                               | XML        |        343 |          0 |          1 |        344 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\macos\Runner\MainFlutterWindow.swift                               | Swift      |         12 |          0 |          4 |         16 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\pubspec.yaml                                                       | YAML       |         41 |          2 |         13 |         56 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\test\widget_test.dart                                              | Dart       |         14 |         10 |          7 |         31 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\web\index.html                                                     | HTML       |         98 |         16 |         21 |        135 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\web\manifest.json                                                  | JSON       |         35 |          0 |          1 |         36 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\windows\flutter\generated_plugin_registrant.cc                     | C++        |         12 |          4 |          5 |         21 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\windows\flutter\generated_plugin_registrant.h                      | C++        |          5 |          5 |          6 |         16 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\windows\runner\flutter_window.cpp                                  | C++        |         48 |          4 |         15 |         67 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\windows\runner\flutter_window.h                                    | C++        |         20 |          5 |          9 |         34 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\windows\runner\main.cpp                                            | C++        |         30 |          4 |         10 |         44 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\windows\runner\resource.h                                          | C++        |          9 |          6 |          2 |         17 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\windows\runner\utils.cpp                                           | C++        |         54 |          2 |         10 |         66 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\windows\runner\utils.h                                             | C++        |          8 |          6 |          6 |         20 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\windows\runner\win32_window.cpp                                    | C++        |        210 |         24 |         55 |        289 |
+| c:\Users\oguzk\Desktop\visual studio\clock_app\clock_app\windows\runner\win32_window.h                                      | C++        |         48 |         31 |         24 |        103 |
+| Total                                                                                                                       |            |      2,577 |        209 |        422 |      3,208 |
++-----------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+

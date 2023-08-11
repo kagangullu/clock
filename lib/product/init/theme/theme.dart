@@ -20,6 +20,13 @@ class AppTheme {
         ),
         backgroundColor: ThemeColors.scaffoldBackgroundColor,
       ),
+      textTheme: TextTheme(
+        headlineLarge: TextStyle(
+          color: ThemeColors.white,
+          fontWeight: FontWeight.bold,
+          fontSize: 240,
+        ),
+      ),
     );
   }
 }

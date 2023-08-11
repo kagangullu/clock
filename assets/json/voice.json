@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Kuşlar ve Doğa",
+      "path": "assets/voice/rain_bird.mp3",
+      "imagePath": "https://www.farmersalmanac.com/wp-content/uploads/2017/01/Birds-weather-forecasters-canva.png"
+    },
+    {
+      "name": "Şelale",
+      "path": "assets/voice/waterfall.mp3",
+      "imagePath": "https://c4.wallpaperflare.com/wallpaper/99/841/239/forest-waterfall-wallpaper-full-hd-for-desktop-1920%C3%971080-wallpaper-preview.jpg"
+    },
+    {
+      "name": "Piano",
+      "path": "assets/voice/piano.mp3",
+      "imagePath": "https://wallpaperset.com/w/full/c/e/c/167550.jpg"
+    }
+]

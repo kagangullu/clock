@@ -26,9 +26,6 @@ mixin PomodoroOperationMixin on State<PomodoroView> {
   String minutes = "25";
   String seconds = "00";
 
-  List<String> tasks = [];
-  String currentTask = "your task";
-
   void switchMode(String mode) {
     stopTimer();
     timerDetails["mode"] = mode;

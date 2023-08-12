@@ -1,4 +1,1 @@
-enum ClockTextEnum {
-  hour,
-  minute,
-}
+enum ClockTextEnum { hour, minute }

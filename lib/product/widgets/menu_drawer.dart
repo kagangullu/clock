@@ -6,6 +6,7 @@ import 'package:clock_app/features/view/theme/theme_view.dart';
 import 'package:clock_app/features/view/voice/voices_view.dart';
 import 'package:clock_app/product/init/lang/locale_keys.g.dart';
 import 'package:clock_app/product/init/theme/theme_colors.dart';
+import 'package:clock_app/product/utils/asset_utils.dart';
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -22,25 +23,24 @@ class MenuDrawer extends StatelessWidget {
         children: [
           _MyListTile(
             leading: SvgPicture.asset(
-              "assets/icons/time.svg",
+              AssetUtils.getTimeIcon(),
               color: ThemeColors.white,
-              height: 25,
             ),
             pushWidget: HomeView(),
             title: LocaleKeys.clock.tr(),
           ),
           _MyListTile(
-            leading: SvgPicture.asset("assets/icons/brush.svg"),
+            leading: SvgPicture.asset(AssetUtils.getBrushIcon()),
             pushWidget: ThemeView(),
             title: LocaleKeys.themes.tr(),
           ),
           _MyListTile(
-            leading: SvgPicture.asset("assets/icons/voice.svg"),
+            leading: SvgPicture.asset(AssetUtils.getVoiceIcon()),
             pushWidget: VoicesView(),
             title: LocaleKeys.sounds.tr(),
           ),
           _MyListTile(
-            leading: SvgPicture.asset("assets/icons/pomodoro.svg"),
+            leading: SvgPicture.asset(AssetUtils.getPomodoroIcon()),
             pushWidget: PomodoroTimer(),
             title: LocaleKeys.pomodoro.tr(),
           ),

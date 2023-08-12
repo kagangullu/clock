@@ -1,3 +1,6 @@
+import 'package:flutter/material.dart';
+
+@immutable
 class Sound {
   final String name;
   final String path;

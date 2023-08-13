@@ -1,11 +1,11 @@
 [
     {
-      "name": "Kuşlar ve Doğa",
+      "name": "Birds And Nature",
       "path": "assets/voice/rain_bird.mp3",
       "imagePath": "https://www.farmersalmanac.com/wp-content/uploads/2017/01/Birds-weather-forecasters-canva.png"
     },
     {
-      "name": "Şelale",
+      "name": "Waterfall",
       "path": "assets/voice/waterfall.mp3",
       "imagePath": "https://c4.wallpaperflare.com/wallpaper/99/841/239/forest-waterfall-wallpaper-full-hd-for-desktop-1920%C3%971080-wallpaper-preview.jpg"
     },
@@ -13,5 +13,36 @@
       "name": "Piano",
       "path": "assets/voice/piano.mp3",
       "imagePath": "https://wallpaperset.com/w/full/c/e/c/167550.jpg"
+    },
+    {
+      "name": "Bird sounds",
+      "path": "assets/voice/piano.mp3",
+      "imagePath": "https://img.freepik.com/premium-photo/bird-rain-with-rain-drops_777078-3016.jpg"
+    },
+    {
+      "name": "Guitar",
+      "path": "assets/voice/piano.mp3",
+      "imagePath": "https://cdn.wallpapersafari.com/75/6/uoKVDP.jpg"
+    },
+    {
+      "name": "Camp Fire",
+      "path": "assets/voice/piano.mp3",
+      "imagePath": "https://p4.wallpaperbetter.com/wallpaper/907/33/144/nature-campfire-depth-of-field-mountains-fire-hd-wallpaper-preview.jpg"
+    },
+    {
+      "name": "Nature Sounds",
+      "path": "assets/voice/piano.mp3",
+      "imagePath": "https://a-static.besthdwallpaper.com/beautiful-nature-wallpaper-3200x2400-74448_29.jpg"
+    },
+    {
+      "name": "Alps",
+      "path": "assets/voice/piano.mp3",
+      "imagePath": "https://wallpapercave.com/wp/p3HjAFU.jpg"
+    },
+    {
+      "name": "Lake Sounds",
+      "path": "assets/voice/piano.mp3",
+      "imagePath": "https://p4.wallpaperbetter.com/wallpaper/779/987/626/nature-wallpapers-desktop-beautiful-widscreen-autumn-hd-wallpaper-wallpaper-preview.jpg"
     }
+
 ]

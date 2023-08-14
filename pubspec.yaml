@@ -1,7 +1,7 @@
 name: clock_app
 description: A new Flutter project.
 publish_to: 'none' 
-version: 1.0.2+3
+version: 1.0.3+4
 
 environment:
   sdk: '>=3.1.0-128.0.dev <4.0.0'
@@ -10,22 +10,27 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.2
+  #Localization
+  easy_localization: ^3.0.2
+
+  #State Management
+  provider: ^6.0.5
 
   #Utils
-  easy_localization: ^3.0.2
   kartal:
   intl: ^0.18.1
   shared_preferences: ^2.2.0
-  device_preview: ^1.1.0
   wakelock: ^0.6.2
-  awesome_snackbar_content: ^0.1.3
   audioplayers: ^5.0.0
-  provider: ^6.0.5
+
+  #UI Utils
+  awesome_snackbar_content: ^0.1.3
+  device_preview: ^1.1.0
 
   #Icon
   flutter_svg: ^2.0.7
-  
+  cupertino_icons: ^1.0.2
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -33,10 +38,12 @@ dev_dependencies:
   flutter_launcher_icons: ^0.13.1
   flutter_native_splash: ^2.3.1
 
+#Splash Screen
 flutter_native_splash:
   image: "assets/icons/app_icon.png"
   color: "#FFB102"
 
+#Icon
 flutter_icons:
   android: true
   ios: true

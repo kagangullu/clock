@@ -32,7 +32,7 @@ class _ClockView extends StatefulWidget {
 }
 
 class _ClockViewState extends State<_ClockView> {
-  late String themeValue = 'assets/theme/1.png';
+  late String themeValue = 'assets/theme/1.webp';
 
   @override
   void initState() {

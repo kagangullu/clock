@@ -35,7 +35,7 @@ class PomodoroView extends StatefulWidget {
 
 class _PomodoroViewState extends State<PomodoroView>
     with PomodoroOperationMixin {
-  late String themeValue = 'assets/theme/1.png';
+  late String themeValue = 'assets/theme/1.webp';
 
   @override
   void initState() {

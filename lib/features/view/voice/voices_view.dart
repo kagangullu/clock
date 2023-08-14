@@ -17,7 +17,7 @@ class _VoicesViewState extends State<VoicesView> with VoicesOperationMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: const MenuDrawer(),
+      drawer: MenuDrawer(controller: PageController()),
       appBar: _appBar(),
       body: GridView.builder(
         itemCount: songs.length,

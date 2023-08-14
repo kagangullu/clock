@@ -16,17 +16,8 @@ class _MenuViewState extends State<MenuView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      drawer: const MenuDrawer(),
-      floatingActionButton: FloatingActionButton(
-        child: const Icon(Icons.arrow_circle_left_outlined),
-        onPressed: () {
-          widget.controller.previousPage(
-            duration: const Duration(milliseconds: 5),
-            curve: Curves.linear,
-          );
-        },
-      ),
-      body: const ThemeView(),
+      drawer: MenuDrawer(controller: widget.controller),
+      body: ThemeView(controller: widget.controller),
     );
   }
 }

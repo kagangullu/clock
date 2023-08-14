@@ -13,7 +13,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 class MenuDrawer extends StatelessWidget {
-  const MenuDrawer({super.key});
+  const MenuDrawer({super.key, required this.controller});
+  final PageController controller;
 
   @override
   Widget build(BuildContext context) {
@@ -31,7 +32,7 @@ class MenuDrawer extends StatelessWidget {
           ),
           _MyListTile(
             leading: SvgPicture.asset(AssetUtils.getBrushIcon()),
-            pushWidget: ThemeView(),
+            pushWidget: ThemeView(controller: controller),
             title: LocaleKeys.themes.tr(),
           ),
           _MyListTile(

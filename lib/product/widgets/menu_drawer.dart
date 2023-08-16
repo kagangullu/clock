@@ -3,7 +3,6 @@
 import 'package:clock_app/features/view/home/home_view.dart';
 import 'package:clock_app/features/view/pomodoro/pomodoro_view.dart';
 import 'package:clock_app/features/view/theme/theme_view.dart';
-import 'package:clock_app/features/view/voice/voices_view.dart';
 import 'package:clock_app/product/init/lang/locale_keys.g.dart';
 import 'package:clock_app/product/init/theme/theme_colors.dart';
 import 'package:clock_app/product/utils/asset_utils.dart';
@@ -35,11 +34,11 @@ class MenuDrawer extends StatelessWidget {
             pushWidget: ThemeView(controller: controller),
             title: LocaleKeys.themes.tr(),
           ),
-          _MyListTile(
-            leading: SvgPicture.asset(AssetUtils.getVoiceIcon()),
-            pushWidget: VoicesView(),
-            title: LocaleKeys.sounds.tr(),
-          ),
+          // _MyListTile(
+          //   leading: SvgPicture.asset(AssetUtils.getVoiceIcon()),
+          //   pushWidget: VoicesView(),
+          //   title: LocaleKeys.sounds.tr(),
+          // ),
           _MyListTile(
             leading: SvgPicture.asset(AssetUtils.getPomodoroIcon()),
             pushWidget: PomodoroTimer(),

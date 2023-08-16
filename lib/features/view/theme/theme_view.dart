@@ -37,6 +37,7 @@ class _ThemeViewState extends State<ThemeView> with ThemeOperationMixin {
                   mainAxisSpacing: 20,
                   mainAxisExtent: 110,
                 ),
+                padding: context.horizontalPaddingNormal,
                 itemCount: snapshot.data!.images.length,
                 itemBuilder: (context, index) {
                   final imageName = snapshot.data!.images[index];

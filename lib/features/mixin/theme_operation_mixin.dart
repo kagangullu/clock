@@ -14,4 +14,6 @@ mixin ThemeOperationMixin on State<ThemeView> {
     final jsonResponse = convert.jsonDecode(jsonString);
     return ImageModel.fromJson(jsonResponse);
   }
+
+  
 }

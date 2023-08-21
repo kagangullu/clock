@@ -26,39 +26,41 @@ class _ThemeViewState extends State<ThemeView> with ThemeOperationMixin {
     return Scaffold(
       drawer: MenuDrawer(controller: widget.controller),
       appBar: _appBar(),
-      body: FutureBuilder<ImageModel>(
-        future: loadImageModel(),
-        builder: (context, snapshot) {
-          if (snapshot.connectionState == ConnectionState.done) {
-            if (snapshot.hasData) {
-              return GridView.builder(
-                gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                  crossAxisCount: 3,
-                  mainAxisSpacing: 20,
-                  mainAxisExtent: 110,
-                ),
-                padding: context.horizontalPaddingNormal,
-                itemCount: snapshot.data!.images.length,
-                itemBuilder: (context, index) {
-                  final imageName = snapshot.data!.images[index];
-                  final imagePath = 'assets/theme/$imageName';
-                  return ThemeWidget(
-                    imagePath: imagePath,
-                    controller: widget.controller,
-                  );
-                },
-              );
+      body: SafeArea(
+        child: FutureBuilder<ImageModel>(
+          future: loadImageModel(),
+          builder: (context, snapshot) {
+            if (snapshot.connectionState == ConnectionState.done) {
+              if (snapshot.hasData) {
+                return GridView.builder(
+                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: 3,
+                    mainAxisSpacing: 20,
+                    mainAxisExtent: 110,
+                  ),
+                  padding: context.horizontalPaddingNormal,
+                  itemCount: snapshot.data!.images.length,
+                  itemBuilder: (context, index) {
+                    final imageName = snapshot.data!.images[index];
+                    final imagePath = 'assets/theme/$imageName';
+                    return ThemeWidget(
+                      imagePath: imagePath,
+                      controller: widget.controller,
+                    );
+                  },
+                );
+              } else {
+                return Center(
+                  child: Text(LocaleKeys.datanotFound.tr()),
+                );
+              }
             } else {
-              return Center(
-                child: Text(LocaleKeys.datanotFound.tr()),
+              return const Center(
+                child: CircularProgressIndicator.adaptive(),
               );
             }
-          } else {
-            return const Center(
-              child: CircularProgressIndicator.adaptive(),
-            );
-          }
-        },
+          },
+        ),
       ),
     );
   }

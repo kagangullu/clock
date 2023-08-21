@@ -21,6 +21,16 @@ class ThemeView extends StatefulWidget {
 }
 
 class _ThemeViewState extends State<ThemeView> with ThemeOperationMixin {
+  int _calculateCrossAxisCount(BuildContext context) {
+    double screenWidth = MediaQuery.of(context).size.height;
+
+    if (screenWidth < 600) {
+      return 3;
+    } else {
+      return 4;
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -33,16 +43,21 @@ class _ThemeViewState extends State<ThemeView> with ThemeOperationMixin {
             if (snapshot.connectionState == ConnectionState.done) {
               if (snapshot.hasData) {
                 return GridView.builder(
-                  gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                    crossAxisCount: 3,
-                    mainAxisSpacing: 20,
+                  gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                    crossAxisCount: _calculateCrossAxisCount(context),
+                    mainAxisSpacing: 30,
                     mainAxisExtent: 110,
                   ),
                   padding: context.horizontalPaddingNormal,
                   itemCount: snapshot.data!.images.length,
                   itemBuilder: (context, index) {
+                    double screenWidth = MediaQuery.of(context).size.width;
+                    bool isTablet = screenWidth > 600;
+
                     final imageName = snapshot.data!.images[index];
-                    final imagePath = 'assets/theme/$imageName';
+                    final imagePath = isTablet
+                        ? 'assets/theme/ipad/$imageName'
+                        : 'assets/theme/$imageName';
                     return ThemeWidget(
                       imagePath: imagePath,
                       controller: widget.controller,

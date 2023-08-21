@@ -44,7 +44,7 @@ class _PomodoroViewState extends State<PomodoroView>
   }
 
   loadTheme() async {
-    themeValue = await ThemeUtils.loadTheme();
+    themeValue = await ThemeUtils.loadTheme(context);
     setState(() {});
   }
 

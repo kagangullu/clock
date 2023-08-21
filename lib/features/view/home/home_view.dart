@@ -5,6 +5,7 @@ import 'package:clock_app/product/enum/clock_text_enum.dart';
 import 'package:clock_app/product/utils/theme_utils.dart';
 import 'package:clock_app/product/widgets/main_clock_widget.dart';
 import 'package:flutter/material.dart';
+import 'package:kartal/kartal.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -41,30 +42,30 @@ class _ClockViewState extends State<_ClockView> {
   }
 
   loadTheme() async {
-    themeValue = await ThemeUtils.loadTheme();
+    themeValue = await ThemeUtils.loadTheme(context);
     setState(() {});
   }
 
   @override
   Widget build(BuildContext context) {
-    double screenHeight = MediaQuery.of(context).size.height;
-    double screenWidth = MediaQuery.of(context).size.width;
-
     return Container(
-      height: screenHeight, // Ekran yüksekliği kadar
-      width: screenWidth,
       decoration: BoxDecoration(
         image: DecorationImage(
           image: AssetImage(themeValue),
           fit: BoxFit.cover,
         ),
       ),
-      child: const Row(
-        mainAxisAlignment: MainAxisAlignment.spaceAround,
-        children: [
-          MainClockWidget(clockTextEnum: ClockTextEnum.hour),
-          MainClockWidget(clockTextEnum: ClockTextEnum.minute),
-        ],
+      child: Padding(
+        padding: context.horizontalPaddingHigh + context.horizontalPaddingHigh,
+        child: const Row(
+          mainAxisAlignment: MainAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            MainClockWidget(clockTextEnum: ClockTextEnum.hour),
+            Spacer(),
+            MainClockWidget(clockTextEnum: ClockTextEnum.minute),
+          ],
+        ),
       ),
     );
   }

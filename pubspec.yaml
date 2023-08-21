@@ -57,6 +57,7 @@ flutter:
   assets:
   - assets/icons/
   - assets/theme/
+  - assets/theme/ipad/
   - assets/json/
   - assets/voice/
   - assets/language/

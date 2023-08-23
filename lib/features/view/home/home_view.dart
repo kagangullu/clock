@@ -52,7 +52,7 @@ class _ClockViewState extends State<_ClockView> {
       decoration: BoxDecoration(
         image: DecorationImage(
           image: AssetImage(themeValue),
-          fit: BoxFit.fitWidth,
+          fit: BoxFit.cover,
         ),
       ),
       child: Padding(
